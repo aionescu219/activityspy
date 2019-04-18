@@ -17,9 +17,9 @@ class MainActivity : AppCompatActivity() {
         Log.i(TAG,"onCreate event fired")
     }
 
-    override fun onStop() {
+    override fun onDestroy() {
         Log.e(TAG, "We’re going down, Captain!")
-        super.onStop()
+        super.onDestroy()
 
     }
 }
